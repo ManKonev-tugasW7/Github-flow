@@ -8,4 +8,5 @@ function addTodo() {
   li.innerHTML = `${input.value} <span class="delete" onclick="this.parentElement.remove()">✕</span>`;
   list.appendChild(li);
   input.value = '';
+  //deadline
 }
